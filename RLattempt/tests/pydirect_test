@@ -1,0 +1,8 @@
+import pydirectinput
+import time
+time_test=time.time()
+pydirectinput.keyUp('w')
+pydirectinput.keyUp('s')
+pydirectinput.keyUp('a')
+pydirectinput.keyUp('d')
+print(time.time()-time_test)
